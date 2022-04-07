@@ -3,4 +3,4 @@
 
 ---
 ### :ballot_box_with_check: ML
-* [Numpy] (https://github.com/yongchoooon/TIL/tree/main/numpy)
+* [Numpy](https://github.com/yongchoooon/TIL/tree/main/numpy)
