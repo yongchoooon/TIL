@@ -1,5 +1,5 @@
 # :scroll: TIL : Today I Learned
-* 오늘 공부 완료
+* **오늘 공부 완료**
 
 ---
 ### :ballot_box_with_check: ML
