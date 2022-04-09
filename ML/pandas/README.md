@@ -1,4 +1,4 @@
 # Pandas
-### ![pandas](https://commons.wikimedia.org/wiki/File:Pandas_logo.svg)<br>
+### ![pandas](https://github.com/pandas-dev/pandas/blob/master/web/pandas/static/img/pandas.svg)<br>
 * `import numpy as np`
 ---
