@@ -1,4 +1,4 @@
-# Numpy
+# :fire:Numpy
 ### Numeric Python<br>
 * `import numpy as np`
 ---

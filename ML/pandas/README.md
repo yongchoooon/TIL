@@ -1,4 +1,4 @@
-# Pandas
+# :fire:Pandas
 ## <img src="https://raw.githubusercontent.com/pandas-dev/pandas/main/web/pandas/static/img/pandas.svg"  width="300" height="150"/><br>
 ### 구조화된 데이터의 처리를 지원하는 python 라이브러리.
 > * `import numpy as np`
