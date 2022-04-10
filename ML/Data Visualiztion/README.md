@@ -1,12 +1,10 @@
 # :fire:Data Visualization
-### Matplotlib <br>
+### Matplotlib : `import matplotlib.pyplot as plt`<br>
 ## <img src="https://matplotlib.org/stable/_static/logo2.svg" width="300" height="60">
-* `import matplotlib.pyplot as plt`
-### Seaborn <br>
+### Seaborn : `import seaborn as sns` <br>
 ## <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width="300" height="60">
-* `import seaborn as sns`
 ---
-* [viz_1](https://github.com/yongchoooon/TIL/blob/main/ML/Data Visualization/viz_1.ipynb)
+* [viz_1](https://github.com/yongchoooon/TIL/blob/main/ML/Data%20Visualiztion/viz_1.ipynb)
   * plot()
   * Figure & Axes
   * subplots
@@ -18,12 +16,12 @@
   * savefig()
   * Set style
   * Case : Line Graph
-* [viz_2](https://github.com/yongchoooon/TIL/blob/main/ML/Data Visualization/viz_2.ipynb)
+* [viz_2](https://github.com/yongchoooon/TIL/blob/main/ML/Data%20Visualization/viz_2.ipynb)
   * Scatter
   * Bar chart - plt.barh()
   * Histogram
   * Boxplot
-* [viz_3](https://github.com/yongchoooon/TIL/blob/main/ML/Data Visualization/viz_3.ipynb)
+* [viz_3](https://github.com/yongchoooon/TIL/blob/main/ML/Data%20Visualization/viz_3.ipynb)
   * Seaborn
   * basic plot - lineplot, hue, Scatterplot, Countplot, Barplot
   * Distribution plot (distplot)
