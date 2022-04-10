@@ -1,6 +1,6 @@
 # :fire:Data Visualization
 ### Matplotlib : `import matplotlib.pyplot as plt`<br>
-## <img src="https://matplotlib.org/stable/_static/logo2.svg" width="300" height="60">
+## <img src="https://matplotlib.org/stable/_static/logo2.svg" width="300" height="60" underline="False">
 ### Seaborn : `import seaborn as sns` <br>
 ## <img src="https://seaborn.pydata.org/_static/logo-wide-lightbg.svg" width="300" height="60">
 ---
