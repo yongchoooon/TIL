@@ -5,4 +5,4 @@
 ### :ballot_box_with_check: ML
 * [Numpy](https://github.com/yongchoooon/TIL/tree/main/ML/numpy)
 * [Pandas](https://github.com/yongchoooon/TIL/tree/main/ML/pandas)
-* [Data Visualization](https://github.com/yongchoooon/TIL/tree/main/ML/Data%20Visualiztion)
+* [Data Visualization](https://github.com/yongchoooon/TIL/tree/main/ML/Data%20Visualiztion) 
