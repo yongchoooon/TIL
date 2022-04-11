@@ -27,3 +27,4 @@
   * argmax & argmin - argsort
   * Boolean index
   * Fancy index
+* [lab_assignment](https://github.com/yongchoooon/TIL/blob/main/ML/numpy/lab_assignment_numpy.ipynb)
