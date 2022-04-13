@@ -1,6 +1,6 @@
 # :fire:Numpy
 ### Numeric Python<br>
-## <img src="https://numpy.org/doc/stable/_static/numpylogo.svg" width="250" height="60"> 
+## <img src="https://numpy.org/doc/stable/_static/numpylogo.svg" width="250" height="60" > 
 * `import numpy as np`
 ---
 * [numpy_1](https://github.com/yongchoooon/TIL/blob/main/ML/numpy/numpy_1.ipynb)
