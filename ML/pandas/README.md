@@ -24,4 +24,4 @@
   * Concat
   * Case study #Merge, Concat
   * Load database - pandas persistence
-  * [lab_assignment](https://github.com/yongchoooon/TIL/blob/main/ML/pandas/lab_assignment_Build_a_Matrix/lab_assignmnet_Build_a_Matrix.ipynb)
+* [lab_assignment](https://github.com/yongchoooon/TIL/blob/main/ML/pandas/lab_assignment_Build_a_Matrix/lab_assignmnet_Build_a_Matrix.ipynb)
