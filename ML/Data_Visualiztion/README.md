@@ -17,7 +17,7 @@
   * Set grid & xylim
   * savefig()
   * Set style
-  * Case : Line Graph
+  * Case : Line Graph 
 * [viz_2](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Visualization/viz_2.ipynb)
   * Scatter
   * Bar chart - plt.barh()
