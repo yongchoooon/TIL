@@ -2,23 +2,40 @@
 ---
 - [Data_Preprocessing_1](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_1.ipynb)
     - ML Process
-    - 데이터 모판
+    - **데이터 모판**
 - [Data_Preprocessing_2](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_2.ipynb)
-    - 데이터 처리의 전략
+    - **데이터 처리의 전략**
     - 데이터 노트 작성
     - Data cleansing issues
 - [Data_Preprocessing_3](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_3.ipynb)
-    - Missing Value Strategy (결측치 처리)
+    - **Missing Value Strategy (결측치 처리)**
     - Drop - drop()
     - Data Fill - fillna()
     - Missing Value Handling
 - [Data_Preprocessing_4](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_4.ipynb)
-    - Category Data (이산형 데이터)
-    - One-Hot Encoding - pd.get_dummies()
+    - **Category Data** (이산형 데이터)
+    - **One-Hot Encoding** - pd.get_dummies()
     - Data Binning - pd.cut()
     - Label encoding by `sklearn` - LabelEncoder(), OneHotEncoder()
     - Titanic 데이터셋으로 one-hot encoding
 - [Data_Preprocessing_5](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_5.ipynb)
-    - Feature Scaling
+    - **Feature Scaling**
     - Feature Scaling 전략 - Min-Max Normalization, Standardization
     - Feature Scaling with `sklearn` - StandardScaler(), MinMaxScaler()
+- [Data_Preprocessing_6](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_6.ipynb)
+    - **Feature Engineering 1** - Generation, Selection
+    - Log Transformation
+- [Data_Preprocessing_789](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_789.ipynb)
+    - Data_Preprocessing_7
+        - **Feature Engineering 2**
+        - Mean Encoding
+        - Interaction Feature
+    - Data_Preprocessing_8
+        - **Feature Engineering 3**
+        - Numeric data types
+        - Binning
+        - Log Transform
+        - Visualization
+        - String Handling
+    - Data_Preprocessing_9
+        - **Feature Engineering 4**
