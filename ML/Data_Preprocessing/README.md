@@ -39,3 +39,6 @@
         - String Handling
     - Data_Preprocessing_9
         - **Feature Engineering 4**
+        - Feature Selection
+        - Model & Training
+        - Feature Elimination (Kaggle에 submission)
