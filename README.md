@@ -6,5 +6,7 @@
 * [Numpy](https://github.com/yongchoooon/TIL/tree/main/ML/numpy)
 * [Pandas](https://github.com/yongchoooon/TIL/tree/main/ML/pandas)
 * [Data Visualization](https://github.com/yongchoooon/TIL/tree/main/ML/Data_Visualiztion)
+    * Seminar 진행 : [Visualization Project](https://github.com/yongchoooon/Visualization_project)
 * [Time Series](https://github.com/yongchoooon/TIL/tree/main/ML/Time_Series)
 * [Data Preprocessing](https://github.com/yongchoooon/TIL/tree/main/ML/Data_Preprocessing)
+    * Seminar 진행 : [Kaggle Preprocessor Lab Assginment](https://github.com/yongchoooon/TIL/tree/main/ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment)
