@@ -1,7 +1,7 @@
 # :fire:Data Preprocessing
 ### 데이터 전처리
 ---
-- Lab Assignment : [Kaggle_Preprocessor](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assginment/)
+- Lab Assignment : [Kaggle_Preprocessor](https://github.com/yongchoooon/TIL/tree/main/ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment/)
 ---
 - [Data_Preprocessing_1](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Data_Preprocessing_1.ipynb)
     - ML Process
