@@ -5,8 +5,8 @@ def get_train_test_split_dataset(train_dataset_filename  = None, test_dataset_fi
     '''
     - 함수목적
       - Kaggle의 dataset중 "House Price" 문제의 train dataset과 test dataset의 파일을 입력하면 해당 데이터셋을
-        학습가능한 형태로 X_train, y_tain, X_test 로 전처리 하여 반환해준다.
-      - 반환된 X_train과 yt_train 데이터셋을 자동채점 시스템이 Linear Regression으로 모델을 만들어
+        학습가능한 형태로 X_train, y_train, X_test 로 전처리 하여 반환해준다.
+      - 반환된 X_train과 y_train 데이터셋을 자동채점 시스템이 Linear Regression으로 모델을 만들어
         Root-Mean-Squared-Error (RMSE) value를 측정하여 threshold 이상의 결과를 내야만 test를 합격할 수 있다.
       - https://www.kaggle.com/c/house-prices-advanced-regression-techniques/data
     - Args
