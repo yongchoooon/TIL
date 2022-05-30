@@ -106,7 +106,6 @@ def getAssignmentTemplateFileFromServer(access_token, assignment_name):
     payload = {
             "assignment_name" : assignment_name,
        }
-
     accesstoken_dict = json.loads(access_token)
     headers = {'Authorization': 'JWT ' + accesstoken_dict['token']}
     result = requests.post("http://"+HOST+"/autograder/assignments/%s/submissionready" % assignment_name, json=payload, headers=headers)
