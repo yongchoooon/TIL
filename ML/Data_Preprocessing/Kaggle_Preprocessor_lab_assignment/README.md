@@ -4,5 +4,9 @@
 - Seminar : 2022-05-30
 ---
 - Assignment Note : [kaggle_house_price.ipynb](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment/kaggle_house_price.ipynb)
----
 - Assignment Github Link : https://github.com/TEAMLAB-Lecture/ml-101/tree/master/2019/lab_asssigment/3_kaggle_preprocessor
+---
+- Kaggle에 제출하기 절차
+    - [kaggle_preprocessor.py](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment/kaggle_preprocessor.py) 파일을 실행하면 kaggle에 제출할 수 있도록 제출 형식에 맞게 `submission.csv` 파일을 생성해 줌.
+    - 그 이후 console에서 kaggle 제출 명령어 `kaggle competitions submit -c house-prices-advanced-regression-techniques -f submission.csv -m "Message"`를 입력하면 제출이 됨.
+    - 위의 과정을 자동화한 배치 파일이 [kaggle_submitter.bat](https://github.com/yongchoooon/TIL/blob/main/ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment/kaggle_submitter.bat)
