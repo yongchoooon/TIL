@@ -2,6 +2,7 @@ import numpy as np
 import pandas as pd
 from collections import Counter
 from scipy.stats import skew
+from sklearn.metrics import mean_squared_error
 from sklearn.linear_model import LinearRegression
 from sklearn.model_selection import KFold
 
@@ -81,6 +82,7 @@ def get_train_test_split_dataset(train_dataset_filename  = None, test_dataset_fi
     all_df["MasVnrType"] = all_df["MasVnrType"].fillna("None")
     all_df["MasVnrArea"] = all_df["MasVnrArea"].fillna(0)
     all_df["LotFrontage"] = all_df["LotFrontage"].fillna(all_df["LotFrontage"].mean())
+    # all_df["LotFrontage"] = all_df["LotFrontage"].fillna(all_df.groupby(["TotalBsmtSF"])["LotFrontage"].transform("mean"))
     all_df["GarageYrBlt"] = all_df["GarageYrBlt"].fillna(all_df["YearBuilt"])
     all_df["FireplaceQu"] = all_df["FireplaceQu"].fillna("None")
     for data in ['BsmtQual', 'BsmtExposure', 'BsmtFinType1', 'GarageType', 'GarageFinish']:
@@ -142,7 +144,7 @@ def get_train_test_split_dataset(train_dataset_filename  = None, test_dataset_fi
         X_y_train_list.append([X_train, y_train])
     
     best_reg_idx = np.array(mse).argmin()
-    
+    print(f"Best Regression Model's MSE : {mse[best_reg_idx]}")
     
     
     # return value
@@ -150,12 +152,20 @@ def get_train_test_split_dataset(train_dataset_filename  = None, test_dataset_fi
     X_test = np.array(test_df)
     test_id_idx = np.array(test_index)
 
-    
-    
-    # 이건 train data를 Cross Validation 하지 않았을 때 
-#     X_train = np.array(train_df)
-#     y_train = np.array(y_train_df)
-#     X_test = np.array(test_df)
-#     test_id_idx = np.array(test_index)
 
     return X_train, X_test, y_train, test_id_idx
+
+if __name__ == "__main__":
+    train_dataset_filename = "./data/house_train.csv"
+    test_dataset_filename = "./data/house_test.csv"
+    X_train, X_test, y_train, test_id_idx = get_train_test_split_dataset(train_dataset_filename  = train_dataset_filename, 
+                                                                         test_dataset_filename = test_dataset_filename)
+    
+    lr = LinearRegression()
+    lr.fit(X_train, y_train)
+    test_result = 10**lr.predict(X_test)
+    result_dict = {
+        "id" : test_id_idx, "SalePrice": test_result
+    }
+    result_df = pd.DataFrame(result_dict)
+    result_df.to_csv("submission.csv", index=False) 
