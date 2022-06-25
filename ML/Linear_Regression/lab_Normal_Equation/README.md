@@ -1,5 +1,5 @@
 # :fire:Lab_Assignment - Normal Equation 
-> ***$\hat{w} = (X^TX)^{-1}X^Ty$***
+> $\hat{w} = (X^TX)^{-1}X^Ty$
 - 강의를 수강한 이후 Normal Equation을 활용하여 LinearRegression 모듈을 구현하는 assignment
 - 진행일자 : 2022-06-25
 ---
