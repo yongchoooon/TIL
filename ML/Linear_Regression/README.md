@@ -7,3 +7,7 @@
   - Weights의 최적값을 컴퓨터가 찾는 방법
   - Normal Equation
   - lab assignment : [Normal equation](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/lab_Normal_Equation/)
+- [LR_2](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_2.ipynb)
+  - Gradient Descent(경사하강법)
+  - Linear Regression with GD
+  - Implementation with Numpy
