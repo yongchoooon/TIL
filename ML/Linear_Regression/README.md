@@ -1,13 +1,23 @@
 # :fire:Linear Regression
 ---
-- [LR_1](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_1.ipynb)
+- [LR_1](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_1.ipynb) (Part 7.1 ~ 7.3)
   - 머신러닝의 학습 방법들
   - 가설함수
   - Cost Function
   - Weights의 최적값을 컴퓨터가 찾는 방법
   - Normal Equation
   - lab assignment : [Normal equation](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/lab_Normal_Equation/)
-- [LR_2](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_2.ipynb)
+- [LR_2](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_2.ipynb) (Part 7.4 ~ 7.6)
   - Gradient Descent(경사하강법)
   - Linear Regression with GD
   - Implementation with Numpy
+- [LR_3](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_3.ipynb) (Part 7.7)
+  - Multivariate Linear Regression with GD
+  - Implementation
+- [LR_4](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_4.ipynb) (Part 7.8 ~ 7.9)
+  - Performance measure
+    - MAE, MSE, R squared
+  - Training & Test data split
+    - Holdout Method
+  - Linear Regression with Sklearn
+  - lab assignment : [Gradient Descent](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/lab_Gradient_Descent/)
