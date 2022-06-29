@@ -6,7 +6,9 @@
 ---
 ### :ballot_box_with_check: ML
 - [Numpy](https://github.com/yongchoooon/TIL/tree/main/ML/numpy)
+    - lab Assignment : [Numpy in a nutshell](https://github.com/yongchoooon/TIL/blob/main/ML/numpy/lab_assignment_numpy.ipynb)
 - [Pandas](https://github.com/yongchoooon/TIL/tree/main/ML/pandas)
+    - lab Assignment : [Build a Matrix](https://github.com/yongchoooon/TIL/tree/main/ML/pandas/lab_assignment_Build_a_Matrix)
 - [Data Visualization](https://github.com/yongchoooon/TIL/tree/main/ML/Data_Visualiztion)
     - Seminar 진행 : [Visualization Project](https://github.com/yongchoooon/Visualization_project)
 - [Time Series](https://github.com/yongchoooon/TIL/tree/main/ML/Time_Series)
