@@ -11,4 +11,5 @@
 - [Data Preprocessing](https://github.com/yongchoooon/TIL/tree/main/ML/Data_Preprocessing)
     - Seminar 진행 : [Kaggle Preprocessor Lab Assginment](https://github.com/yongchoooon/TIL/tree/main/ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment)
 - [Linear Regression](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression)
-    - lab Assignment : [Normal equation](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_normal_equation)
+    - lab Assignment : [Normal equation](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_Normal_Equation)
+    - lab Assignment : [Gradient Descent](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_Gradient_Descent)
