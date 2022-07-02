@@ -21,3 +21,4 @@
     - Holdout Method
   - Linear Regression with Sklearn
   - lab assignment : [Gradient Descent](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/lab_Gradient_Descent/)
+- [LR_5](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_5.ipynb) (Part 8.1 ~ 8.2)
