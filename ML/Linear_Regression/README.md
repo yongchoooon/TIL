@@ -27,3 +27,12 @@
     - Full-Batch Gradient Descent
     - Stochastic Gradient Descent
     - Mini-Batch (Stochastic) Gradient Descent
+    - Implementation - SGD
+      - Multivariate
+    - Learning-rate decay
+    - 종료조건 설정
+- [LR_6](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_6.ipynb) (Part 8.3 ~ )
+  - Overfitting
+    - Bias-Variance tradeoff
+    - Overcoming Overfitting
+  - Regularization
