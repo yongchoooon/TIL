@@ -31,8 +31,20 @@
       - Multivariate
     - Learning-rate decay
     - 종료조건 설정
-- [LR_6](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_6.ipynb) (Part 8.3 ~ )
+- [LR_6](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_6.ipynb) (Part 8.3 ~ 8.4)
   - Overfitting
     - Bias-Variance tradeoff
     - Overcoming Overfitting
   - Regularization
+  - L2 Regularization
+    - 식 전개
+    - Normal Equation Approach
+  - L1 Regularization
+  - L1 vs L2
+- [LR_7](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_7.ipynb) (Part 8.5)
+  - Sklearn Linear Model family 
+    - Linear Regression with Normal Equation
+    - Linear Regression with SGD
+    - Linear Regression with Ridge & Lasso Regression
+- [LR_8](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_8.ipynb) (Part 8.6 ~ )
+  
