@@ -48,4 +48,4 @@
     - `git log`
 - :star: tip : add와 commit을 한꺼번에
     - `git commit -am "(메세지)"`
-    - 단, 새로 추가된(untracked) 파일이 없을 때에만 한정
+    - 단, 새로 추가된(untracked) 파일이 없을 때에만 한정 
