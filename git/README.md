@@ -1,5 +1,5 @@
 # :fire: Git
-<img src="https://git-scm.com/images/logo@2x.png" title="git" width="170px" height="70px"> 
+<img src="https://git-scm.com/images/logo@2x.png" title="git" width="160px" height="70px"> 
 
 ---
 
