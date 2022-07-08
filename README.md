@@ -19,4 +19,4 @@
     - lab Assignment : [Gradient Descent](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_Gradient_Descent)
 
 ### :ballot_box_with_check: Git
-- [Git_Basic](https://github.com/yongchoooon/TIL/blob/main/git/Git_Basic.md)
+- [Git](https://github.com/yongchoooon/TIL/blob/main/git/README.md) 
