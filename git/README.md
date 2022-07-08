@@ -1,5 +1,6 @@
 # :fire: Git
-<img src="https://git-scm.com/images/logo@2x.png" title="git" width="150px" height="70px"> 
+<img src="https://git-scm.com/images/logo@2x.png" title="git" width="170px" height="70px"> 
+
 ---
 
 - [Git_Basic](https://github.com/yongchoooon/TIL/blob/main/git/Git_Basic.md)
