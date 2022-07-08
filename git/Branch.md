@@ -38,6 +38,13 @@
 - 병합의 개념
 - 초록색 Branch와 파란색 Branch의 두 가지를 하나로 이어 붙이는 것.
 - Merge 이전의 branch들의 History가 다 남음.
+1. git_test 브랜치를 main 브랜치로 merge
+2. main 브랜치에서 아래 명령어를 입력
+    - `git merge git_test`
+    - :bulb: `merge`는 `reset`으로 되돌리기 가능
+        - `merge`도 하나의 커밋이기 때문에 이전으로 `merge`하기 이전 해당 브랜치의 마지막 시점으로 되돌리기 가능
+3. 병합된 브랜치는 삭제
+    - `git branch -d git_test`
 ## 2) Rebase
 <img src="./pics/branch_rebase.JPG" title="branch_rebase">
 
