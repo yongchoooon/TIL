@@ -39,7 +39,7 @@
 - 초록색 Branch와 파란색 Branch의 두 가지를 하나로 이어 붙이는 것.
 - Merge 이전의 branch들의 History가 다 남음.
 1. git_test 브랜치를 main 브랜치로 merge
-2. main 브랜치에서 아래 명령어를 입력
+2. **main 브랜치에서** 아래 명령어를 입력
     - `git merge git_test`
     - :bulb: `merge`는 `reset`으로 되돌리기 가능
         - `merge`도 하나의 커밋이기 때문에 이전으로 `merge`하기 이전 해당 브랜치의 마지막 시점으로 되돌리기 가능
@@ -50,3 +50,31 @@
 
 - Branch의 마디(commit)들을 대상 Branch로 옮겨붙이는 것.
 - History가 깔끔하게 한 줄로 정리됨.
+1. git_test2 브랜치를 main 브랜치로 rebase
+2. **git_test2 브랜치에서** 아래 명령어를 입력
+    - :bangbang: `merge` 때와는 반대
+    - `git rebase main`
+3. main 브랜치로 이동 후 아래 명령어로 git_test2 시점으로 `fast-forward`
+    - `git merge git_test2`
+
+# 5. 충돌 해결하기
+## 브랜치 간 충돌
+- 파일과 같은 위치에 다른 내용이 입력된 상황
+## 1) `merge` 충돌 해결
+- main 브랜치에서 `git merge conflict_1`을 입력하여 conflict_1 브랜치와 병합을 시도하면 충돌이 발생
+    - 이 경우 VS code에서 여러 브랜치 중 하나의 브랜치의 내용을 선택할 수도 있고, 모두 선택할 수도 있음
+    - 당장 충돌이 해결이 어려운 경우 아래 명령어로 `merge` 중단 가능
+        - `git merge --abort`
+    - 해결 가능 시 충돌 부분을 수정한 뒤 `git add .`, `git commit`으로 병합 완료
+- conflict_1 브랜치 삭제
+    
+## 2) `rebase` 충돌 해결
+- conflict_2 브랜치에서 `git rebase main`을 입력하여 main 브랜치와 병합을 시도하면 충돌이 발생
+    - 이 경우에도 마찬가지로 브랜치들의 변경사항 중 선택하면 됨
+    - 당장 충돌이 해결이 어려운 경우 아래 명령어로 `merge` 중단 가능
+        - `git merge --abort`
+    - 해결 가능 시 : 충돌 부분을 수정한 후 `git add .`, 아래 명령어로 계속
+        - `git rebase --continue`
+        - 충돌이 모두 해결될 때 까지 반복
+    - main 브랜치에서 `git merge conflict_2`로 마무리
+- conflict_2 브랜치 삭제
