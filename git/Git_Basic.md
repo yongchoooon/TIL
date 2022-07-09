@@ -49,3 +49,31 @@
 - :star: tip : add와 commit을 한꺼번에
     - `git commit -am "(메세지)"`
     - 단, 새로 추가된(untracked) 파일이 없을 때에만 한정 
+
+# 6. 하던 작업을 임시로 저장해두고 싶을 때
+- `git stash` : 아직 마무리하지 않은 작업을 스택에 잠시 저장할 수 있도록 함. 이를 통해 아직 완료하지 않은 일을 commit하지 않고 나중에 다시 꺼내와 마무리할 수 있다. (`git stash save`로도 가능)
+1. `stash`란 아래에 해당하는 파일들을 **보관해두는 장소**이다.
+    - Modified이면서 Tracked 상태인 파일
+        - Tracked : 과거에 이미 commit하여 스냅샷에 넣어진 관리 대상 상태의 파일
+        - Tracked 상태인 파일을 수정한 경우
+    - Staged 상태의 파일
+        - `git add` 명령을 실행한 경우
+
+2. stash 목록 확인하기
+    - `git stash list`
+
+3. stash 적용하기 (했던 작업을 다시 가져오기)
+    - `git stash apply`
+    - `git stash apple (stash 이름)`
+    - :bulb: 이 경우 staged 상태였던 파일을 자동으로 staged 상태로 만들어주지는 않는다. 그래서 아래와 같이 index 옵션을 주어야 staged 상태까지 복원한다.
+        - `git stash apply --index`
+        
+4. stash 제거하기 
+    - `git stash drop`
+    - `git stash drop (stash 이름)`
+    - :bulb: 만약 적용과 동시에 스택에서 stash를 제거하고 싶으면
+        - `git stash pop`
+
+5. stash 되돌리기
+    - `git stash show -p` or `git apply -R`
+    - `git stash show -p (stash 이름)` or `git apply -R`
