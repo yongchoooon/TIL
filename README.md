@@ -21,5 +21,5 @@
 ### :ballot_box_with_check: Git
 - [Git](https://github.com/yongchoooon/TIL/blob/main/Git) 
 
-### :ballot_box_with_check: HTML
+### :ballot_box_with_check: HTML & CSS
 - [HTML_CSS](https://github.com/yongchoooon/TIL/blob/main/HTML_CSS) 
