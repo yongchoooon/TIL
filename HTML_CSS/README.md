@@ -21,5 +21,7 @@
   - [Quest2.css](./yongchoooon/Quest2.css)
   - [page screenshot](./yongchoooon/yongchoooon_Quest2_screen.png)
 
-
-
+---
+## 아쉬운 점
+- 레이아웃을 구상할 때 주로 `<div>`, `<p>` 와 같은 tag들로 마구 만들어 놓고 머릿속으로 box를 그려서 가로로 쌓고 정렬을 하려고 하는데, 이런 방식이 좋은 방식인지 궁금하다.
+- inline과 block type의 tag를 자유자재로 활용할 수 있도록 해야겠다. 
