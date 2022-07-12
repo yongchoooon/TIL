@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+      function LinksSetColor(color) {
+        var alist = document.querySelectorAll('a');
+         var i = 0;
+         while(i < alist.length) {
+           alist[i].style.color = color;
+           i = i + 1;
+          }
+      }
+
+      function BodySetColor(color) {
+        document.querySelector('body').style.color = color;
+      }
+
+      function BodySetBackgroundColor(color) {
+        document.querySelector('body').style.backgroundColor = color;
+      }
+
+      function NightDayHandler(self){
+        if(self.value === 'night') {
+          BodySetBackgroundColor('black');
+          BodySetColor('white');
+          self.value='day';
+    
+          LinksSetColor('powderblue');
+        } else {
+          BodySetBackgroundColor('white');
+          BodySetColor('black');
+          self.value='night';
+
+          LinksSetColor('blue');
+        }
+      }
+    </script>
+  </head>
+  <body>
+    <h1><a href="">WEB</a></h1>
+    <h1>JavaScript</h1>
+    <input type="button" value="night" onclick="
+      NightDayHandler(this);
+    ">
+    <ol>
+      <li><a href="a.html">aaa</a></li>
+      <li><a href="b.html">bbb</a></li>
+      <li><a href="c.html">ccc</a></li>
+    </ol>
+  </body>
+</html>

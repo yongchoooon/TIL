@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Object</h1>
+    <h2>Create</h2>
+    <script>
+      var coworkers = {
+        "programmer" : "egoing",
+        "designer" : "leezche"
+      }
+      document.write("programmer : " + coworkers.programmer + "<br>");
+      document.write("designer : " + coworkers.designer + "<br>");
+      // 객체에 새로운 사람을 추가하고 싶을 때
+      coworkers.bookkeeper = "duru";
+      document.write("bookkeeper : " + coworkers.bookkeeper + "<br>");
+      // 객체에 추가하고자 하는 데이터에 띄어쓰기가 있을 때
+      coworkers["data scientist"] = "taeho";
+      document.write("data scientist : " + coworkers["data scientist"] + "<br>");
+    </script>
+
+  </body>
+</html>
