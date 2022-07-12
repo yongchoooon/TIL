@@ -1,4 +1,5 @@
 # :fire: HTML & CSS
+<img src="https://velog.velcdn.com/images/jelkov/post/080f3641-8739-42fc-8ffe-6d4b86cae85d/Html%20css.png" alt="HTMLCSS" width="200px">
 
 :bulb: `HTML` : HyperText Markup Language <br>
 :bulb: `CSS` : Cascading Style Sheets
