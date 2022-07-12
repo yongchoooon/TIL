@@ -23,3 +23,6 @@
 
 ### :ballot_box_with_check: HTML & CSS
 - [HTML_CSS](https://github.com/yongchoooon/TIL/blob/main/HTML_CSS) 
+
+### :ballot_box_with_check: JavaScript
+- [JavaScript](https://github.com/yongchoooon/TIL/blob/main/JavaScript) 
