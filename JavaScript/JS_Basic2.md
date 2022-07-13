@@ -41,52 +41,52 @@
   - primitive : single item(number, string, boolean, null, undefined, symbol)
   - object : box container
   - function, first-class function
-    1. **primitive**
-      - number : 모든 숫자는 다 number 타입. ($-2^{53} ~ 2^{53}$)
-        - bigInt : 최근에 추가된 타입. ($-2^{53} ~ 2^{53}$의 범위를 넘어섬)
-      - string : 모든 글자는 다 string 타입.
-        - `template literals` : 출력할 때 \`\` 안에 ${변수명}을 넣어서 출력할 수 있음. => string을 `+`로 일일이 쪼개지 않아도 되어서 편함
-      - boolean : True / False
-      - null : 비워져 있는 상태
-        - `let nothing = null;`
-      - undefined : 변수에 할당이 되지 않은 상태
-        - `let x;`
-      - symbol : 고유한 식별자
-        ```javascript
-        const symbol1 = Symbol('id');
-        const symbol2 = Symbol('id');
-        console.log(symbol1 === symbol2); // False
-        ```
-        - `Symbol()`은 고유한 식별자를 만들기 때문에 안에 같은 내용을 입력해도 다른 symbol이 됨.
-        ```javascript
-        const gSymbol1 = Symbol.for('id');
-        const gSymbol2 = Symbol.for('id');
-        console.log(gSymbol1 === gSymbol2); // true
-        ```
-        - 같은 string의 symbol로 만들어주기 위해서는 `.for()`을 사용해 선언해주어야 함.
-        ```javascript
-        console.log(`value : ${symbol1.description}, type: ${typeof symbol1}`);
-        ```
-        - symbol의 내용을 출력하기 위해선 `.description`을 붙여서 출력해야 함
-  - Dynamic typing : dynamically typed language
-    ```javascript
-    let text = 'hello';
-    console.log(text.charAt(0)); // h
+  1. **primitive**
+    - number : 모든 숫자는 다 number 타입. ($-2^{53} ~ 2^{53}$)
+      - bigInt : 최근에 추가된 타입. ($-2^{53} ~ 2^{53}$의 범위를 넘어섬)
+    - string : 모든 글자는 다 string 타입.
+      - `template literals` : 출력할 때 \`\` 안에 ${변수명}을 넣어서 출력할 수 있음. => string을 `+`로 일일이 쪼개지 않아도 되어서 편함
+    - boolean : True / False
+    - null : 비워져 있는 상태
+      - `let nothing = null;`
+    - undefined : 변수에 할당이 되지 않은 상태
+      - `let x;`
+    - symbol : 고유한 식별자
+      ```javascript
+      const symbol1 = Symbol('id');
+      const symbol2 = Symbol('id');
+      console.log(symbol1 === symbol2); // False
+      ```
+      - `Symbol()`은 고유한 식별자를 만들기 때문에 안에 같은 내용을 입력해도 다른 symbol이 됨.
+      ```javascript
+      const gSymbol1 = Symbol.for('id');
+      const gSymbol2 = Symbol.for('id');
+      console.log(gSymbol1 === gSymbol2); // true
+      ```
+      - 같은 string의 symbol로 만들어주기 위해서는 `.for()`을 사용해 선언해주어야 함.
+      ```javascript
+      console.log(`value : ${symbol1.description}, type: ${typeof symbol1}`);
+      ```
+      - symbol의 내용을 출력하기 위해선 `.description`을 붙여서 출력해야 함
+- Dynamic typing : dynamically typed language
+  ```javascript
+  let text = 'hello';
+  console.log(text.charAt(0)); // h
 
-    console.log(`value : ${text}, type : ${typeof text}`);
-    // value : hello, type : string
-    text = 1; 
-    console.log(`value : ${text}, type : ${typeof text}`);
-    // value : 1, type : nubmer
-    text = '7' + 5;
-    console.log(`value : ${text}, type : ${typeof text}`);
-    // value : 75, type : string
-    text = '8' / '2';
-    console.log(`value : ${text}, type : ${typeof text}`);
-    // value : 4, type : nubmer
+  console.log(`value : ${text}, type : ${typeof text}`);
+  // value : hello, type : string
+  text = 1; 
+  console.log(`value : ${text}, type : ${typeof text}`);
+  // value : 1, type : nubmer
+  text = '7' + 5;
+  console.log(`value : ${text}, type : ${typeof text}`);
+  // value : 75, type : string
+  text = '8' / '2';
+  console.log(`value : ${text}, type : ${typeof text}`);
+  // value : 4, type : nubmer
 
-    console.log(text.charAt(0)); // Error
-    ```
+  console.log(text.charAt(0)); // Error
+  ```
   2. object
   - container라고 생각하면 쉬움
     ```javascript
