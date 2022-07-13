@@ -171,3 +171,36 @@
   ```
 
 ## 5. Arrow Function은 무엇인가? 함수의 선언과 표현
+1. Rest parameters
+- `...args` : 배열 형태로 입력됨
+```javascript
+function printAll(...args) {
+  for (let i = 0; i < arg.length; i++) {
+    console.log(args[i]);
+  }
+}
+printAll('dream', 'coding', 'ellie');
+// 출력 : 
+// dream
+// coding
+// ellie
+```
+- `for (a of as)`라는 문법으로도 출력 가능
+```javascript
+for (const arg of args) {
+  console.log(arg);
+}
+```
+2. Function expression
+  - function은 hoisting이 가능함.
+    - 즉 함수를 선언하기 이전에 함수를 불러와도 사용할 수 있음.
+  - function을 변수에 할당하는 것도 가능함.
+    ```javascript
+    const print = function() { // unknown function 이름을 지정해주지 않음
+      console.log('hello');
+    }
+    print(); // 출력 : hello 
+    
+    const printAgain = print;
+    printAgain(); // 출력 : hello
+    ```
