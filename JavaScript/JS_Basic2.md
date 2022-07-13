@@ -19,6 +19,7 @@
   - ex) 비상식적인 경우 : 그냥 `a=6;`이라고 변수 타입 정의 없이 변수를 정의하면 콘솔창에서 Error가 발생함.
 
 ## 3. 데이터 타입, let vs var, hoisting
+- [variable.js](./exercise_2/variable.js)
 - `{}` Block scope : 이 안에서 정의된 변수는 안에서만 사용 가능하고 밖에서는 사용할 수 없음. 
 - var hoisting : 변수를 어디에서 선언했는지에 상관없이 변수의 선언을 제일 위로 끌어올려주는 것.
 1. `var` vs `let`
@@ -100,6 +101,7 @@
     - 변할 수 있음
     
 ## 4. 코딩의 기본 operator, if, for loop 코드리뷰 팁
+- [operator.js](./exercise_2/operator.js)
 1. Increment and decrement operators
   ```javascript
   let counter = 2;
@@ -171,36 +173,69 @@
   ```
 
 ## 5. Arrow Function은 무엇인가? 함수의 선언과 표현
-1. Rest parameters
-- `...args` : 배열 형태로 입력됨
-```javascript
-function printAll(...args) {
-  for (let i = 0; i < arg.length; i++) {
-    console.log(args[i]);
-  }
-}
-printAll('dream', 'coding', 'ellie');
-// 출력 : 
-// dream
-// coding
-// ellie
-```
-- `for (a of as)`라는 문법으로도 출력 가능
-```javascript
-for (const arg of args) {
-  console.log(arg);
-}
-```
-2. Function expression
-  - function은 hoisting이 가능함.
-    - 즉 함수를 선언하기 이전에 함수를 불러와도 사용할 수 있음.
-  - function을 변수에 할당하는 것도 가능함.
-    ```javascript
-    const print = function() { // unknown function 이름을 지정해주지 않음
-      console.log('hello');
+  1. Rest parameters
+  - `...args` : 배열 형태로 입력됨
+  ```javascript
+  function printAll(...args) {
+    for (let i = 0; i < arg.length; i++) {
+      console.log(args[i]);
     }
-    print(); // 출력 : hello 
-    
-    const printAgain = print;
-    printAgain(); // 출력 : hello
+  }
+  printAll('dream', 'coding', 'ellie');
+  // 출력 : 
+  // dream
+  // coding
+  // ellie
+  ```
+  - `for (a of as)`라는 문법으로도 출력 가능
+  ```javascript
+  for (const arg of args) {
+    console.log(arg);
+  }
+  ```
+  2. Function expression
+    - function은 hoisting이 가능함.
+      - 즉 함수를 선언하기 이전에 함수를 불러와도 사용할 수 있음.
+    - function을 변수에 할당하는 것도 가능함.
+      ```javascript
+      const print = function() { // unknown function 이름을 지정해주지 않음
+        console.log('hello');
+      }
+      print(); // 출력 : hello 
+      
+      const printAgain = print;
+      printAgain(); // 출력 : hello
+      ```
+  3. Callback function
+    - function이 파라미터로 전달되는 function
+    ```javascript
+    function randomQuiz(answer, printYes, printNo) {
+      if (answer === 'love you') {
+        printYes();
+      } else {
+        printNo();
+      }
+    }
+
+    const printYes = function () {
+      console.log('yes!');
+    }
+    const printNo = function print() {
+      console.log('no!');
+    }
+
+    randomQuiz('wrong!', printYes, printNo); // 출력 : no!
+    randomQuiz('love you!', printYes, printNo); // 출력 : yes!
     ```
+  4. Arrow function
+  - always anonymous한 function
+  ```javascript
+  const simplePrint = function () {
+    console.log('simplePrint!');
+  }
+  ```
+  ```javascript
+  const simplePrint = () => console.log('simplePrint!');
+  ```
+  - 위 두 코드는 같은 내용의 함수임
+
