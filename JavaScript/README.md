@@ -7,3 +7,8 @@
   - Youtube 강의 : [link](https://www.youtube.com/watch?v=dPRtcRwKo-Y&list=PLuHgQVnccGMBB348PWRN0fREzYcYgFybf)
   - `생활코딩` 채널의 JavaScript 강의를 듣고 공부한 내용
   - 실습 파일들은 [exercise](./exercise/)에
+
+- [JS_Basic2.md](./JS_Basic2.md)
+  - Youtube 강의 : [link](https://www.youtube.com/watch?v=tJieVCgGzhs&list=PLv2d7VI9OotTVOL4QmPfvJWPJvkmv6h-2&index=2)
+  - `드림코딩` 채널의 JavaScript 강의를 듣고 공부한 내용
+  - 실습 파일들은 [exercise2](./exercise2/)에
