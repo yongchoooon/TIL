@@ -10,7 +10,7 @@
 - 다음에 제대로 다시 공부해야 할 때가 있다면 그 때마다 찾아서 다시 공부하는 걸로 한다..
 - 그래도 1주차 과제는 어찌저찌 끝냈다..
 ---
-### Week 1 Quest
+## Week 1 Quest
 - HTML : [link](https://github.com/TEAMLAB-Lecture/web-development-curriculum/tree/main/Quest01)
 - CSS : [link](https://github.com/TEAMLAB-Lecture/web-development-curriculum/tree/main/Quest02)
 
