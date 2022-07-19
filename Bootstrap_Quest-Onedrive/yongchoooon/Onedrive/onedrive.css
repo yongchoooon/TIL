@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  height: 48px;
+}
+
+.flex-navbar {
+  display: flex;
+}
+
+Button {
+  background-color: transparent;
+  border: none;
+}
+
+.HeaderLeftButton {
+  width: 48px;
+  justify-content: center;
+  align-items: center;
+}
+
+.HeaderLeftButton:hover {
+  background-color: #004d88;
+
+}
+
+.SideBarButton {
+  padding: 0;
+  width: 100%;
+  line-height: 48px;
+  cursor: pointer;
+}
+
+svg {
+  fill: white;
+  vertical-align: middle;
+}
+
+.OnedriveTitle {
+  height: 48px;
+  margin: 0;
+  line-height: 48px;
+  color: white;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
