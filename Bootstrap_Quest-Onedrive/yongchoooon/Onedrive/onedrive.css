@@ -4,12 +4,12 @@ body {
 
 .navbar {
   display: flex;
-  width: 100%;
   height: 48px;
 }
 
 .flex-navbar {
   display: flex;
+  width: 100%;
 }
 
 Button {
@@ -17,22 +17,23 @@ Button {
   border: none;
 }
 
-.HeaderLeftButton {
+.HeaderLeftButton , .HeaderRightButton{
   width: 48px;
   justify-content: center;
   align-items: center;
 }
 
-.HeaderLeftButton:hover {
-  background-color: #004d88;
-
-}
-
-.SideBarButton {
+.headerbutton{
+  width: 48px;
   padding: 0;
   width: 100%;
   line-height: 48px;
   cursor: pointer;
+}
+
+.headerbutton:hover {
+  background-color: #004d88;
+  transition-duration: 0.3s;
 }
 
 svg {
@@ -43,6 +44,7 @@ svg {
 .OnedriveTitle {
   height: 48px;
   margin: 0;
+  padding: 0px 10px;
   line-height: 48px;
   color: white;
   font-weight: 700;
@@ -50,4 +52,120 @@ svg {
 
 a {
   text-decoration: none;
+}
+
+
+.HeaderMiddleSearch{
+  margin: 8px;
+  flex: 1 0 auto;
+  display: flex;
+}
+
+@media screen and (max-width: 700px) {
+  .HeaderMiddleSearch {
+    display: none;
+  }
+}
+@media screen and (max-width: 280px) {
+  .HeaderLeftTitle {
+    display: none;
+  }
+}
+@media screen and (max-width: 160px) {
+  .help-btn {
+    display: none;
+  }
+}
+
+.search-box-form-inherit {
+  margin: auto;
+}
+
+.search-box-form {
+  display: flex;
+  box-sizing: content-box;
+  flex-direction: row;
+  align-items: center;
+  background-color: #e1dfdd;
+  height: 32px;
+  margin-left: 44px;
+  margin-right: 44px;
+  border-radius: 4px;
+  max-width: 461px;
+  width: 50vw;
+  justify-content: center;
+
+}
+
+.search-icon {
+  height: 32px;
+  padding: 0;
+  /* position: relative; */
+  flex: 0 0 auto;
+}
+
+.magnifierbtn {
+  /* line-height: 48px; */
+  margin: 0;
+  padding: 0px 6px 0px 12px;
+  height: 32px;
+  fill: blue;
+}
+
+.search-box {
+  height: 32px;
+  vertical-align: middle;
+  background-color: #e1dfdd;
+  font-size: 14px;
+  padding: 10px;
+  width: 332px;
+  border: none;
+  outline:none;
+  flex: 1 1 auto;
+}
+
+.search-box-form:hover {
+  background-color: white;
+}
+.search-box-form:hover > .search-box{
+  background-color: white;
+}
+.search-box:hover {
+  background-color: white;
+}
+
+.search-box-form:focus-within {
+  background-color: white;
+}
+.search-box:focus {
+  background-color: white;
+}
+
+.dropdown-btn {
+  display: flex;
+  height: 32px;
+  flex: 0 0 auto;
+}
+
+.dropdown-arrow-box {
+  align-items: center;
+  height: 32px;
+
+}
+.dropdown-arrow {
+  margin: 0px 7px;
+  padding-top: 6px;
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+}
+
+.whosfile-text{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+}
+
+.HeaderRightButtons {
+  display: flex;
 }
