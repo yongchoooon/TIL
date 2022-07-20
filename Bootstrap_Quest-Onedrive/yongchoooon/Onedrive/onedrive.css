@@ -109,7 +109,8 @@ a {
   margin: 0;
   padding: 0px 6px 0px 12px;
   height: 32px;
-  fill: blue;
+  display: flex;
+  align-items: center;
 }
 
 .search-box {
