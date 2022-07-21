@@ -170,3 +170,192 @@ a {
 .HeaderRightButtons {
   display: flex;
 }
+
+.all {
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  flex: 0 0 auto;
+  height: 48px;
+}
+
+.main {
+  flex: 1 1 auto;
+  position: relative;
+  width: 100%;
+
+}
+
+.main-container {
+  display: flex;
+  flex-direction: row;
+  height: calc(100vh - 48px);
+}
+
+.main-aside {
+  background-color: #f3f2f1;
+  width: 228px;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-core {
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.asidebar-top {
+  flex: 1 1 auto;
+}
+
+.asidebar-top-focuszone {
+  border-bottom: 1px solid #e1dfdd;
+  padding-bottom: 16px;
+}
+
+.asidebar-bottom {
+  padding: 8px 0px;
+  border-top: 1px solid #edebe9;
+}
+
+.asidename {
+  padding: 14px 16px 12px 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+ul.asidemenus {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.asidemenu {
+  padding: 0;
+  line-height: 36px;
+}
+
+.asidemenu-link {
+  height: 36px;
+  color: black;
+}
+
+.asidemenu-link:hover, .asidemenu-link:active {
+  color: #005a9e;
+}
+
+.asidemenu-flexcontainer {
+  display: flex;
+  padding: 0px 8px 0px 16px;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+.asidebar-bot-link {
+  display: block;
+  padding: 8px 20px;
+  color: #005a9e;
+  font-size: 14px;
+}
+
+.asidebar-bot-link:hover {
+  color: #004578;
+  text-decoration: underline;
+}
+
+
+i {
+  height: 16px;
+  margin-right: 16px;
+}
+
+.link-myfile {
+  font-weight: bold;
+}
+
+.asidemenu-myfile {
+  background-color: #e1dfdd;
+}
+
+.topbar {
+  flex: 0 0 auto;
+  /* background-color: pink; */
+
+}
+
+.view {
+  flex: 1 1 auto;
+  /* background-color: green; */
+}
+
+.commandbar {
+  height: 44px;
+  border-bottom: 1px solid #edebe9;
+  background-color: pink;
+
+
+}
+
+.commandbtns {
+  padding: 0px 14px 0px 24px;
+  height: 44px;
+  display: flex;
+  background-color: pink;
+
+}
+
+.commandbtns-left {
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex-grow: 1;
+  display: flex;
+
+}
+
+.commandbtns-right {
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex-shrink: 0;
+  display: flex;
+}
+
+.topbar-button {
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  height: 100%;
+  font-size: 14px;
+}
+
+.make-new-thing-btn {
+  font-weight: bold;
+  color: white;
+}
+
+.make-new-thing-btn-elems {
+  background-color: #0078d4;
+  display: flex;
+  height: 32px;
+  border-radius: 2px;
+  align-items: center;
+  padding: 0px 12px;
+  text-align: center;
+}
+
+.make-new-thing-btn-elems:hover {
+  background-color: #106ebe;
+}
+
+.make-new-thing-btn-text {
+  margin: 4px;
+  position: relative;
+  top: -1px;
+}
+
+.make-new-thing-btn-elems i {
+  margin: 4px;
+}
