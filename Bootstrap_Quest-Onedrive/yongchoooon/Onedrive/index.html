@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="ko">
   <head>
-    <title>YCH's Onedrive</title>
+    <title>YCH's OneDrive</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="https://cdn.icon-icons.com/icons2/2397/PNG/512/microsoft_onedrive_drive_office_logo_icon_145729.png" type="image/vnd.microsoft.icon" id="favicon">
     <link href="./onedrive.css" rel="stylesheet">
     <link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/9.6.1/css/fabric.min.css">
     <script defer src="./onedrive.js"></script>
@@ -213,7 +214,7 @@
             <div class="view">
               <div class="maincontent">
                 <div class="content-header">
-                  <h2 class="content-title">내 파일</h2>
+                  <h2 class="content-title" draggable="true" ondragstart="drag(event)">내 파일</h2>
                 </div>
                 <div class="content-list">
                   <div class="list-header-wrapper">
@@ -221,8 +222,8 @@
                       <div class="list-header-check-cell list-cell">
                         <div class="list-header-check-cell-flex-container">
                           <div class="circle-check">
-                            <input type="checkbox" id="checkbox-all">
-                            <label for="checkbox-all" onclick="checkAll()"></label>
+                            <input type="checkbox" id="checkbox-all" class="checkbox">
+                            <label for="checkbox-all" onclick="checkAllToggle()"></label>
                           </div>
                         </div>
                       </div><!--
@@ -231,7 +232,7 @@
                           <i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i>
                         </div>
                       </div><!--
-                   --><div class="list-header-name-cell list-cell position-adjust2">
+                   --><div class="list-header-name-cell list-cell position-adjust">
                         <div class="list-header-container">
                           <span class="list-header-elems">
                             <span class="list-header-text" draggable="true" ondragstart="drag(event)">
@@ -282,17 +283,17 @@
                       </div>
                     </div>
                   </div>
-                  <div id="list-rows-wrapper" class="list-rows-wrapper">
-                    <div class="list-row">
+                  <div class="list-rows-wrapper">
+                    <div id="list-row-1" class="list-row">
                       <div class="list-row-check-cell list-cell">
                         <div class="list-row-check-cell-flex-container">
                           <div class="circle-check">
-                            <input type="checkbox" id="checkbox1">
+                            <input type="checkbox" id="checkbox1" class="checkbox" > <!-- input이 checked 되면 backgroundcolor f3f2f1로 조정하는 css 코드 추가-->
                             <label for="checkbox1"></label>
                           </div>
                         </div>
                       </div><!--
-                   --><div class="list-row-filetype-icon-cell list-cell position-adjust">
+                   --><div class="list-row-filetype-icon-cell list-cell position-adjust2">
                         <div class="list-row-container">
                           <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#FFA000" d="M40,12H22l-4-4H8c-2.2,0-4,1.8-4,4v8h40v-4C44,13.8,42.2,12,40,12z"/><path fill="#FFCA28" d="M40,12H8c-2.2,0-4,1.8-4,4v20c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V16C44,13.8,42.2,12,40,12z"/></svg>                        </div>
                         </div><!--
@@ -342,16 +343,16 @@
                         </div>
                       </div>
                     </div>
-                    <div class="list-row">
+                    <div id="list-row-2" class="list-row">
                       <div class="list-row-check-cell list-cell">
                         <div class="list-row-check-cell-flex-container">
                           <div class="circle-check">
-                            <input type="checkbox" id="checkbox2">
+                            <input type="checkbox" id="checkbox2" class="checkbox">
                             <label for="checkbox2"></label>
                           </div>
                         </div>
                       </div><!--
-                   --><div class="list-row-filetype-icon-cell list-cell position-adjust">
+                   --><div class="list-row-filetype-icon-cell list-cell position-adjust2">
                         <div class="list-row-container">
                           <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#FFA000" d="M40,12H22l-4-4H8c-2.2,0-4,1.8-4,4v8h40v-4C44,13.8,42.2,12,40,12z"/><path fill="#FFCA28" d="M40,12H8c-2.2,0-4,1.8-4,4v20c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V16C44,13.8,42.2,12,40,12z"/></svg>                        </div>
                         </div><!--
@@ -401,16 +402,16 @@
                         </div>
                       </div>
                     </div>
-                    <div class="list-row">
+                    <div id="list-row-3" class="list-row">
                       <div class="list-row-check-cell list-cell">
                         <div class="list-row-check-cell-flex-container">
                           <div class="circle-check">
-                            <input type="checkbox" id="checkbox3">
+                            <input type="checkbox" id="checkbox3" class="checkbox">
                             <label for="checkbox3"></label>
                           </div>
                         </div>
                       </div><!--
-                   --><div class="list-row-filetype-icon-cell list-cell position-adjust">
+                   --><div class="list-row-filetype-icon-cell list-cell position-adjust2">
                         <div class="list-row-container">
                           <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#FFA000" d="M40,12H22l-4-4H8c-2.2,0-4,1.8-4,4v8h40v-4C44,13.8,42.2,12,40,12z"/><path fill="#FFCA28" d="M40,12H8c-2.2,0-4,1.8-4,4v20c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V16C44,13.8,42.2,12,40,12z"/></svg>                        </div>
                         </div><!--

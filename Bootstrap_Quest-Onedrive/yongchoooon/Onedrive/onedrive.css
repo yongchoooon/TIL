@@ -582,6 +582,7 @@ input[id="checkbox1"]:checked + label {
   border-color: white;
   visibility: visible;
 }
+
 /* --------------- */
 input[id="checkbox1"] + label {
 	display: inline-block;
@@ -698,7 +699,6 @@ input[id="checkbox3"]:checked + label {
 .list-row-container {
   height: 42px;
   padding: 0px 11px;
-  text-align: left;
 }
 
 .list-row-text {
