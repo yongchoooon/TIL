@@ -86,28 +86,28 @@
                   <li class="asidemenu asidemenu-myfile">
                     <a href="#" class="asidemenu-link link-myfile" title="내 파일">
                       <span class="asidemenu-flexcontainer">
-                        <i class="ms-Icon ms-font-l ms-Icon--FolderHorizontal" aria-hidden="true" ></i>내 파일
+                        <i class="ms-Icon ms-font-l ms-Icon--FolderHorizontal asidemenuicon" aria-hidden="true" ></i>내 파일
                       </span>
                     </a>
                   </li>
                   <li class="asidemenu asidemenu-history">
                     <a href="#" class="asidemenu-link link-history" title="최근">
                       <span class="asidemenu-flexcontainer">
-                        <i class="ms-Icon ms-font-l ms-Icon--History" aria-hidden="true" ></i>최근
+                        <i class="ms-Icon ms-font-l ms-Icon--History asidemenuicon" aria-hidden="true" ></i>최근
                       </span>
                     </a>
                   </li>
                   <li class="asidemenu asidemenu-share">
                     <a href="#" class="asidemenu-link link-share" title="공유">
                       <span class="asidemenu-flexcontainer">
-                        <i class="ms-Icon ms-font-l ms-Icon--People" aria-hidden="true" ></i>공유
+                        <i class="ms-Icon ms-font-l ms-Icon--People asidemenuicon" aria-hidden="true" ></i>공유
                       </span>
                     </a>
                   </li>
                   <li class="asidemenu asidemenu-bin">
                     <a href="#" class="asidemenu-link link-bin" title="휴지통">
                       <span class="asidemenu-flexcontainer">
-                        <i class="ms-Icon ms-font-l ms-Icon--RecycleBin" aria-hidden="true" ></i>휴지통
+                        <i class="ms-Icon ms-font-l ms-Icon--RecycleBin asidemenuicon" aria-hidden="true" ></i>휴지통
                       </span>
                     </a>
                   </li>
@@ -128,45 +128,82 @@
               <div class="commandbar">
                 <div class="commandbtns">
                   <div class="commandbtns-left">
-                    <div class="topbar-item">
-                      <button class="topbar-button make-new-thing-btn" type="button" title="이 위치에 새 폴더 또는 문서 만들기">
-                        <span class="make-new-thing-btn-elems">
-                          <i class="ms-Icon ms-Icon--CalculatorAddition" aria-hidden="true"></i>
-                          <span class="make-new-thing-btn-text">새로 만들기</span>
-                          <i class="ms-Icon ms-Icon--ChevronDownMed" aria-hidden="true"></i>
+                    <div class="topbar-item hidden-topbar-item">
+                      <button class="topbar-button upload-btn hidden-topbar-button" type="button" title="탐색 창 전환">
+                        <span class="topbar-btn-elems hidden-topbar-elems">
+                          <i class="ms-Icon ms-Icon--CollapseMenu topbar-main-icon" aria-hidden="true"></i>
                         </span>
                       </button>
                     </div>
-                    <div class="topbar-item">
-                      <button class="topbar-button upload-btn" type="button">
-
+                    <div class="topbar-item hidden-topbar-divider hidden-topbar-item">
+                      <div></div>
+                    </div>
+                    <div class="topbar-item topbar-make-new-thing">
+                      <button class="topbar-button topbar-main-button make-new-thing-btn" type="button" title="이 위치에 새 폴더 또는 문서 만들기">
+                        <span class="make-new-thing-btn-elems">
+                          <i class="ms-Icon ms-font-l ms-Icon--CalculatorAddition" aria-hidden="true"></i>
+                          <span class="make-new-thing-btn-text">새로 만들기</span>
+                          <i class="ms-Icon ms-Icon--ChevronDownSmall make-new-thing-downicon" aria-hidden="true"></i>
+                        </span>
                       </button>
                     </div>
-                    <div class="topbar-item">
+                    <div class="topbar-item topbar-upload">
+                      <button class="topbar-button upload-btn" type="button" title="컴퓨터의 파일을 이 위치에 업로드">
+                        <span class="topbar-btn-elems">
+                          <i class="ms-Icon ms-Icon--Upload topbar-main-icon" aria-hidden="true"></i>
+                          <span class="topbar-text upload-text">업로드</span>
+                          <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="topbar-item topbar-sync">
                       <button class="topbar-button sync-btn" type="button">
-
+                        <span class="topbar-btn-elems">
+                          <i class="ms-Icon ms-Icon--SyncToPC topbar-main-icon" aria-hidden="true"></i>
+                          <span class="topbar-text upload-text">동기화</span>
+                        </span>
                       </button>
                     </div>
-                    <div class="topbar-item">
+                    <div class="topbar-item topbar-automation">
                       <button class="topbar-button automation-btn" type="button">
-
+                        <span class="topbar-btn-elems">
+                          <i class="ms-Icon ms-Icon--TriggerAuto topbar-main-icon" aria-hidden="true"></i>
+                          <span class="topbar-text upload-text">자동화</span>
+                          <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                        </span>
+                      </button>
+                    </div>
+                    <div class="topbar-item topbar-overflow-button hidden-topbar-more">
+                      <button class="topbar-button overflow-btn" type="button">
+                        <span class="topbar-btn-elems">
+                          <i class="ms-Icon ms-Icon--More topbar-hidden-icon" aria-hidden="true"></i>
+                        </span>
                       </button>
                     </div>
                   </div>
                   <div class="commandbtns-right">
                     <div class="topbar-item">
-                      <button class="topbar-button sorting-btn" type="button">
-
+                      <button class="topbar-button sorting-btn" type="button" title="모든 항목의 정렬 기준입니다.">
+                        <span class="topbar-btn-elems">
+                          <i class="ms-Icon ms-Icon--SortLines topbar-main-icon" aria-hidden="true"></i>
+                          <span class="topbar-text upload-text">정렬</span>
+                          <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                        </span>
                       </button>
                     </div>
                     <div class="topbar-item">
-                      <button class="topbar-button view-option-btn" type="button">
-
+                      <button class="topbar-button view-option-btn" type="button" title="보기 옵션 전환">
+                        <span class="topbar-btn-elems">
+                          <i class="ms-Icon ms-Icon--ViewList topbar-main-icon" aria-hidden="true"></i>
+                          <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                        </span>
                       </button>
                     </div>
                     <div class="topbar-item">
-                      <button class="topbar-button info-btn" type="button">
-
+                      <button class="topbar-button info-btn" type="button" title="세부 정보 창 열기">
+                        <span class="topbar-btn-elems">
+                          <i class="ms-Icon ms-Icon--Info topbar-main-icon" aria-hidden="true"></i>
+                        </span>
                       </button>
                     </div>
                   </div>
@@ -174,7 +211,258 @@
               </div>
             </div>
             <div class="view">
-
+              <div class="maincontent">
+                <div class="content-header">
+                  <h2 class="content-title">내 파일</h2>
+                </div>
+                <div class="content-list">
+                  <div class="list-header-wrapper">
+                    <div class="list-row list-header"> 
+                      <div class="list-header-check-cell list-cell">
+                        <div class="list-header-check-cell-flex-container">
+                          <div class="circle-check">
+                            <input type="checkbox" id="checkbox-all">
+                            <label for="checkbox-all" onclick="checkAll()"></label>
+                          </div>
+                        </div>
+                      </div><!--
+                   --><div class="list-header-filetype-icon-cell list-cell position-adjust">
+                        <div class="list-header-container">
+                          <i class="ms-Icon ms-Icon--Page" aria-hidden="true"></i>
+                        </div>
+                      </div><!--
+                   --><div class="list-header-name-cell list-cell position-adjust2">
+                        <div class="list-header-container">
+                          <span class="list-header-elems">
+                            <span class="list-header-text" draggable="true" ondragstart="drag(event)">
+                              이름
+                            </span>
+                            <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-header-date-modified-cell list-cell position-adjust2">
+                        <div class="list-header-container">
+                          <span class="list-header-elems">
+                            <span class="list-header-text" draggable="true" ondragstart="drag(event)">
+                              수정된 날짜
+                            </span>
+                            <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-header-modifying-person-cell list-cell position-adjust2">
+                        <div class="list-header-container">
+                          <span class="list-header-elems">
+                            <span class="list-header-text" draggable="true" ondragstart="drag(event)">
+                              수정한 사람
+                            </span>
+                            <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-header-file-size-cell list-cell position-adjust2">
+                        <div class="list-header-container">
+                          <span class="list-header-elems">
+                            <span class="list-header-text" draggable="true" ondragstart="drag(event)">
+                              파일 크기
+                            </span>
+                            <i class="ms-Icon ms-Icon--ChevronDownSmall downicon" aria-hidden="true"></i>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-header-share-cell list-cell position-adjust2">
+                        <div class="list-header-container-nochangebackground">
+                          <span class="list-header-elems">
+                            <span class="list-header-text" draggable="true" ondragstart="drag(event)">
+                              공유
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="list-rows-wrapper" class="list-rows-wrapper">
+                    <div class="list-row">
+                      <div class="list-row-check-cell list-cell">
+                        <div class="list-row-check-cell-flex-container">
+                          <div class="circle-check">
+                            <input type="checkbox" id="checkbox1">
+                            <label for="checkbox1"></label>
+                          </div>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-filetype-icon-cell list-cell position-adjust">
+                        <div class="list-row-container">
+                          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#FFA000" d="M40,12H22l-4-4H8c-2.2,0-4,1.8-4,4v8h40v-4C44,13.8,42.2,12,40,12z"/><path fill="#FFCA28" d="M40,12H8c-2.2,0-4,1.8-4,4v20c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V16C44,13.8,42.2,12,40,12z"/></svg>                        </div>
+                        </div><!--
+                   --><div class="list-row-name-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text-foldername" draggable="true" ondragstart="drag(event)">
+                              <a class="list-link" href="#" alt="바탕 화면">바탕 화면</a>
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-date-modified-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              7월 20일
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-modifying-person-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              서용득
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-file-size-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              4개 항목
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-share-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              <a class="list-link" href="#" alt="비공개">비공개</a>
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-row">
+                      <div class="list-row-check-cell list-cell">
+                        <div class="list-row-check-cell-flex-container">
+                          <div class="circle-check">
+                            <input type="checkbox" id="checkbox2">
+                            <label for="checkbox2"></label>
+                          </div>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-filetype-icon-cell list-cell position-adjust">
+                        <div class="list-row-container">
+                          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#FFA000" d="M40,12H22l-4-4H8c-2.2,0-4,1.8-4,4v8h40v-4C44,13.8,42.2,12,40,12z"/><path fill="#FFCA28" d="M40,12H8c-2.2,0-4,1.8-4,4v20c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V16C44,13.8,42.2,12,40,12z"/></svg>                        </div>
+                        </div><!--
+                   --><div class="list-row-name-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text-foldername" draggable="true" ondragstart="drag(event)">
+                              <a class="list-link" href="#" alt="문서">문서</a>
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-date-modified-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              7월 3일
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-modifying-person-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              서용득
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-file-size-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              27개 항목
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-share-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              <a class="list-link" href="#" alt="비공개">비공개</a>
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="list-row">
+                      <div class="list-row-check-cell list-cell">
+                        <div class="list-row-check-cell-flex-container">
+                          <div class="circle-check">
+                            <input type="checkbox" id="checkbox3">
+                            <label for="checkbox3"></label>
+                          </div>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-filetype-icon-cell list-cell position-adjust">
+                        <div class="list-row-container">
+                          <svg xmlns="http://www.w3.org/2000/svg"  viewBox="0 0 48 48" width="20px" height="20px"><path fill="#FFA000" d="M40,12H22l-4-4H8c-2.2,0-4,1.8-4,4v8h40v-4C44,13.8,42.2,12,40,12z"/><path fill="#FFCA28" d="M40,12H8c-2.2,0-4,1.8-4,4v20c0,2.2,1.8,4,4,4h32c2.2,0,4-1.8,4-4V16C44,13.8,42.2,12,40,12z"/></svg>                        </div>
+                        </div><!--
+                   --><div class="list-row-name-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text-foldername" draggable="true" ondragstart="drag(event)">
+                              <a class="list-link" href="#" alt="그림">그림</a>
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-date-modified-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              7월 22일
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-modifying-person-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              서용득
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-file-size-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              11개 항목
+                            </span>
+                          </span>
+                        </div>
+                      </div><!--
+                   --><div class="list-row-share-cell list-cell position-adjust2">
+                        <div class="list-row-container">
+                          <span class="list-row-elems">
+                            <span class="list-row-text" draggable="true" ondragstart="drag(event)">
+                              <a class="list-link" href="#" alt="비공개">비공개</a>
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
