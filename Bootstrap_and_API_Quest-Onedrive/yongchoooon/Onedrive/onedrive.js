@@ -24,7 +24,6 @@ function checkAllToggle() {
 // 체크박스가 전부 checked 되면 header 체크박스가 checked 되도록
 $(document).ready(function(){
   $(".checkbox").click(function() {
-    console.log($(".checkbox:gt(0)"));
     if(($(".checkbox:eq(1)").prop("checked") == true) && ($(".checkbox:eq(2)").prop("checked") == true) && ($(".checkbox:eq(3)").prop("checked") == true)) {
       $(".checkbox:eq(0)").prop("checked", true);
     } else {
