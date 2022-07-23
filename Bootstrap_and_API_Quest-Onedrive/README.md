@@ -11,7 +11,7 @@
 
 ### Quest 1 - Onedrive
 
-<img src=".yongchoooon/Onedrive/YCH_OneDrive.PNG" alt="YCH's_OneDrive" title="YCH's_OneDrive" width="800px">
+<img src="./yongchoooon/Onedrive/YCH_OneDrive.PNG" alt="YCH's_OneDrive" title="YCH's_OneDrive" width="800px">
 
 - My Assignment
   - [index.html](./yongchoooon/Onedrive/index.html)
