@@ -17,6 +17,8 @@
 - [Linear Regression](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression)
     - lab Assignment : [Normal equation](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_Normal_Equation)
     - lab Assignment : [Gradient Descent](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_Gradient_Descent)
+- [Logistic Regression](https://github.com/yongchoooon/TIL/tree/main/ML/Logistic_Regression)
+
 
 ### :ballot_box_with_check: Git
 - [Git](https://github.com/yongchoooon/TIL/blob/main/Git) 
