@@ -46,5 +46,5 @@
     - Linear Regression with Normal Equation
     - Linear Regression with SGD
     - Linear Regression with Ridge & Lasso Regression
-- [LR_8](https://github.com/yongchoooon/TIL/blob/main/ML/Linear_Regression/LR_8.ipynb) (Part 8.6 ~ )
+
   
