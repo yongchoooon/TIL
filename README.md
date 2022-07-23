@@ -37,4 +37,4 @@
 
 ### :ballot_box_with_check: Bootstrap (Onedrive)
 - [Bootstrap](https://github.com/yongchoooon/TIL/blob/main/Bootstrap) 
-    - Quest - Onedrive : [link](./Bootstrap_Quest-Onedrive/yongchoooon/)
+    - Quest - Onedrive : [link](./Bootstrap_and_API_Quest-Onedrive/yongchoooon/)
