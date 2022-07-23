@@ -130,7 +130,7 @@ a {
 }
 .search-box-form:hover > .search-box{
   background-color: white;
-}
+} 
 .search-box:hover {
   background-color: white;
 }
@@ -206,8 +206,8 @@ header {
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
+  width: calc(100vw - 228px);
 }
-
 
 .asidebar-top {
   flex: 1 1 auto;
@@ -301,7 +301,6 @@ i.asidemenuicon {
   height: 44px;
   display: flex;
   justify-content: space-between;
-
 }
 
 .commandbtns-left {
