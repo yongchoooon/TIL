@@ -549,17 +549,18 @@ input[id="checkbox-all"] {
 	display: none;
 }
 
-input[id="checkbox-all"]:hover {
+input[id="checkbox-all"]:hover + label {
   background: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/Black_check.svg) no-repeat 0 1px / contain;
 }
 
 input[id="checkbox-all"]:checked + label {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/2/27/White_check.svg) no-repeat 0 1px / contain;
+  background: url(https://upload.wikimedia.org/wikipedia/commons/2/27/White_check.svg) no-repeat 0 0px / contain;
   background-color: #005a9e;
   border-color: white;
   visibility: visible;
 }
 /* --------------- */
+
 input[id="checkbox1"] + label {
 	display: inline-block;
 	width: 16px;
@@ -572,31 +573,7 @@ input[id="checkbox1"] {
 	display: none;
 }
 
-input[id="checkbox1"]:hover {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/Black_check.svg) no-repeat 0 1px / contain;
-}
-
-input[id="checkbox1"]:checked + label {
-  background: url(https://upload.wikimedia.org/wikipedia/commons/2/27/White_check.svg) no-repeat 0 1px / contain;
-  background-color: #005a9e;
-  border-color: white;
-  visibility: visible;
-}
-
-/* --------------- */
-input[id="checkbox1"] + label {
-	display: inline-block;
-	width: 16px;
-	height: 16px;
-	border: 1px solid black;
-  border-radius: 100%;
-}
-
-input[id="checkbox1"] {
-	display: none;
-}
-
-input[id="checkbox1"]:hover {
+input[id="checkbox1"]:hover + label  {
   background: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/Black_check.svg) no-repeat 0 1px / contain;
 }
 
@@ -619,7 +596,7 @@ input[id="checkbox2"] {
 	display: none;
 }
 
-input[id="checkbox2"]:hover {
+input[id="checkbox2"]:hover + label  {
   background: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/Black_check.svg) no-repeat 0 1px / contain;
 }
 
@@ -642,7 +619,7 @@ input[id="checkbox3"] {
 	display: none;
 }
 
-input[id="checkbox3"]:hover {
+input[id="checkbox3"]:hover + label  {
   background: url(https://upload.wikimedia.org/wikipedia/commons/c/c2/Black_check.svg) no-repeat 0 1px / contain;
 }
 
@@ -707,6 +684,10 @@ input[id="checkbox3"]:checked + label {
 
 .list-row-text-foldername {
   font-size: 14px;
+}
+
+.list-link {
+  color: black;
 }
 
 .list-link:visited{ 

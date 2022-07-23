@@ -1,71 +1,56 @@
 'use strict';
 
+// text drag 불가하도록
 function drag(e) {
   e.dataTransfer.setData("Text", e.target.id);
 }
 
+// header 체크박스 클릭하면 전체 선택, 전체 해제 toggle
 function checkAllToggle() {
   let checkboxes = document.querySelectorAll(".checkbox");
   for (let i= 1; i < checkboxes.length ; i++) {
     if (checkboxes[0].checked === false) {
       checkboxes[i].checked = true;
       document.getElementById('list-row-' + i).style.backgroundColor = "#f3f2f1";
+      document.getElementById('list-row-' + i).style.borderBottom = "1px solid white";
     } else {
       checkboxes[i].checked = false;
       document.getElementById('list-row-' + i).style.backgroundColor = 'transparent';
+      document.getElementById('list-row-' + i).style.borderBottom = "1px solid #edebe9";
     }
   }
 }
+// 1px solid #edebe9
+// 체크박스가 전부 checked 되면 header 체크박스가 checked 되도록
+$(document).ready(function(){
+  $(".checkbox").click(function() {
+    console.log($(".checkbox:gt(0)"));
+    if(($(".checkbox:eq(1)").prop("checked") == true) && ($(".checkbox:eq(2)").prop("checked") == true) && ($(".checkbox:eq(3)").prop("checked") == true)) {
+      $(".checkbox:eq(0)").prop("checked", true);
+    } else {
+      $(".checkbox:eq(0)").prop("checked", false);
+    }
+  })
+})
 
+// 체크박스 클릭하면 background color 그레이로
+$(document).ready(function(){
+  $("label:gt(0)").click(function(){
+    if($(this).prev().prop("checked") === false){
+      $(this).parent().parent().parent().parent().css('backgroundColor', '#f3f2f1');
+      $(this).parent().parent().parent().parent().css('borderBottom', "1px solid white");
+    } else {
+      $(this).parent().parent().parent().parent().css('backgroundColor', 'transparent');
+      $(this).parent().parent().parent().parent().css('borderBottom', "1px solid #edebe9");
+    }
+  })
+})
 
-$(".checkbox-label-1").click(function(){
-  if($("#checkbox1").prop("checked")==false){
-    console.log('11');
-    $("#list-row-1").css('backgroundColor', '#f3f2f1');
-  } else {
-    console.log('22');
-    $("#list-row-1").css('backgroundColor', 'transparent');
-  }
-  
-});
-
-
-// 체크하면 한 줄만 background color 바꾸려고 하는데 잘 안 됨
-// 두 번째 코드가 그나마 가능성 있음
-
-
-// function setBackgroundGray(i) {
-//   let list_row_i = document.querySelectorAll("#list-row-" + i);
-//   let checkbox = document.querySelectorAll("#checkbox" + i);
-//   console.log(list_row_i);
-
-//   if (checkbox[0].checked === false) {
-//     checkbox.checked = true;
-//     // list_row_i.style.backgroundColor = "#f3f2f1";
-//   } else {
-//     checkbox.checked = false;
-//     // list_row_i.style.backgroundColor = "transparent";
-//   }
-
-// }
-
-// function setBackgroundGray(i) {
-//   let list_row_i = document.querySelector("list-row-" + i);
-//   let checkbox = document.querySelector("checkbox" + i);
-//   checkbox.setAttribute("checked", "false");
-//   console.log(checkbox.getAttribute("checked") === "false");
-
-//   if (checkbox.getAttribute("checked") === "false") {
-//     console.log(2);
-    
-//     console.log(3);
-//     list_row_i.style.backgroundColor = "#f3f2f1";
-//     checkbox.setAttribute("checked", "checked");
-//     console.log(4);
-//   } else {
-//     console.log(1);
-//     checkbox.setAttribute('checked', 'false');
-//     list_row_i.style.backgroundColor = "transparent";
-//   }
-
-// }
+// row에 hover하면 체크박스 보이도록
+$(document).ready(function(){
+  $(".list-row").hover(function(){
+    $(this).children().children(".visible-checkbox").css('visibility', 'visible');
+  }, function(){
+    $(this).children().children(".visible-checkbox").css('visibility', 'hidden');
+  })
+})
