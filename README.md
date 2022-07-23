@@ -36,5 +36,5 @@
     - Quest - DB Modeling : [link](./DataBase/yongchoooon/)
 
 ### :ballot_box_with_check: Bootstrap (Onedrive)
-- [Bootstrap](https://github.com/yongchoooon/TIL/blob/main/Bootstrap) 
+- [Bootstrap](https://github.com/yongchoooon/TIL/blob/main/Bootstrap_and_API_Quest-Onedrive) 
     - Quest - Onedrive : [link](./Bootstrap_and_API_Quest-Onedrive/yongchoooon/)
