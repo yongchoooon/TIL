@@ -18,7 +18,7 @@
     - lab Assignment : [Normal equation](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_Normal_Equation)
     - lab Assignment : [Gradient Descent](https://github.com/yongchoooon/TIL/tree/main/ML/Linear_Regression/lab_Gradient_Descent)
 - [Logistic Regression](https://github.com/yongchoooon/TIL/tree/main/ML/Logistic_Regression)
-    - Dacon Competetion : [Dacon Competition](https://github.com/yongchoooon/TIL/tree/main/ML/Logistic_Regression/Dacon_Competetion_ShoppingMall/)
+    - Dacon Competetion : [Dacon Competition](https://github.com/yongchoooon/TIL/tree/main/ML/Logistic_Regression/Dacon_Competition_ShoppingMall/)
 
 
 ### :ballot_box_with_check: Git
