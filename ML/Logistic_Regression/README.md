@@ -5,4 +5,20 @@
   - Sigmoid Function
   - Hypothesis Function, Cost Function
   - Numpy implementation (생략)
-- [LGR_2](./LGR_2.ipynb) (Part 9.5 ~ )
+- [LGR_2](./LGR_2.ipynb) (Part 9.5 ~ 9.6)
+  - Maximum Likelihood Estimation
+  - LGR for scikit-learn
+- [LGR_3](./LGR_3.ipynb) (Part 9.7 ~ 9.8)
+  - Confusion Matrix
+  - Metrics for classification (sklearn)
+- [LGR_4](./LGR_4.ipynb) (Part 10.1 ~ 10.3)
+  - Multiclass Classification
+  - Softmax Function
+  - Softmax Regression
+- [LGR_5](./LGR_5.ipynb) (Part 10.4 ~ 10.5)
+  - Softmax with Numpy
+  - Metrics for Multiclass
+- [LGR_6](./LGR_6.ipynb) (Part 10.6)
+  - Multiclass classification with scikit-learn
+    - OneVsRestClassifier
+    - OneVsOneClassifier
