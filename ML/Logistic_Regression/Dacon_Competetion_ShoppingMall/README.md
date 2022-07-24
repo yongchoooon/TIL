@@ -1,4 +1,4 @@
-# <img src="https://dacon.io/_nuxt/img/main-logo.aa87261.svg" width="158px" height="40px"> Dacon Competition
+# <img src="https://dacon.io/_nuxt/img/main-logo.aa87261.svg" width="158px" height="40px"> Competition
 - link : [Dacon](https://dacon.io/competitions/official/235938/overview/description)
 
 ---
