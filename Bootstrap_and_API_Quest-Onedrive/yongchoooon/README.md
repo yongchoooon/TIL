@@ -7,9 +7,9 @@
 
 ### Assignment 1 - Onedrive
 
-<img src="./Onedrive/YCH_OneDrive.PNG" alt="YCH's_OneDrive" title="YCH's_OneDrive" width="1000px">
+<img src="./YCH_OneDrive.PNG" alt="YCH's_OneDrive" title="YCH's_OneDrive" width="1000px">
 
 - My Assignment
-  - [index.html](./Onedrive/index.html)
-  - [onedrive.css](./Onedrive/onedrive.css)
-  - [onedrive.js](./Onedrive/onedrive.js)
+  - [index.html](./index.html)
+  - [onedrive.css](./onedrive.css)
+  - [onedrive.js](./onedrive.js)
