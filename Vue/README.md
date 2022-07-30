@@ -7,4 +7,6 @@
   - Youtube 강의 : [link](https://www.youtube.com/watch?v=-tVaahsXpwk&list=PLfLgtT94nNq3Br68sEe26jkOqCPK_8UQ-&index=1)
   - `코딩애플` 채널의 Vue 강의를 듣고 따라한 내용
   - Vue.js로 직방 페이지 만들기 실습
-
+- [project](./project/)
+  - Youtube 강의 : [link](https://www.youtube.com/watch?v=b0ImUEsqaAA&t=3587s)
+  - `개발자의품격` 채널의 Vue 강의를 듣고 따라한 내용
