@@ -1,6 +1,7 @@
 # ML
 ML/Data_Preprocessing/titanic/
 ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment/data/
-ML/Logistic_Regression/Dacon_Competetion_ShoppingMall/data/
+ML/Logistic_Regression/Kaggle_Default_Prediction/data/
+ML/Logistic_Regression/Kaggle_Default_Prediction/pickles/
 # pycache
 __pycache__/
