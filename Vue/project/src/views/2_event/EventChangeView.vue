@@ -1,6 +1,7 @@
 <template>
   <div>
     <select name="" id="" @change="changeCity" v-model="selectedCity">
+      <!-- 여기서 @change="changeCity($event)" 로 해서 이벤트를 파라미터로 보낼 수도 있음. 함수 정의할 때도 파라미터 정의 필요-->
       <option value="">==도시선택==</option>
       <option :value="city.cityCode" :key="city.cityCode" v-for="city in cityList">
         {{ city.title }}

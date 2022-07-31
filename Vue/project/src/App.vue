@@ -5,9 +5,19 @@
     <router-link to="/databinding/string">String</router-link> |
     <router-link to="/databinding/html">Html</router-link>
   </nav>
+  <div>
+    <Calender/>
+  </div>
   <router-view/>
 </template>
-
+<script>
+import Calender from './components/MyCalendar715.vue'
+export default {
+  components: {
+    Calender
+  }
+}
+</script>
 <style>
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
