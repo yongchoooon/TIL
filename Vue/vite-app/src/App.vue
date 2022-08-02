@@ -1,19 +1,19 @@
 <template>
-  <div class="container mt-30px">
+  <!-- <div class="container mt-30px">
     <FormPicker />
-  </div>
+  </div> -->
   <div>
-    <Cal715 />
+    <PleaseCalendar />
   </div>
 </template>
 
 <script setup>
-import FormPicker from './components/FormPicker.vue'
-import Cal715 from './components/FullCalendar715.vue'
+// import FormPicker from './components/FormPicker.vue'
+import PleaseCalendar from './components/PleaseCalendar.vue'
 
 </script>
 
 <style>
-@use base;
-@use container;
+/* @use base;
+@use container; */
 </style>
