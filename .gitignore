@@ -3,5 +3,6 @@ ML/Data_Preprocessing/titanic/
 ML/Data_Preprocessing/Kaggle_Preprocessor_lab_assignment/data/
 ML/Logistic_Regression/Kaggle_Default_Prediction/data/
 ML/Logistic_Regression/Kaggle_Default_Prediction/pickles/
+ML/Logistic_Regression/Kaggle_Default_Prediction/kaggle_code/
 # pycache
 __pycache__/
