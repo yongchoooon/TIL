@@ -42,3 +42,9 @@
     
 ### :ballot_box_with_check: Vue.js
 - [Vue.js](https://github.com/yongchoooon/TIL/blob/main/Vue) 
+
+### :ballot_box_with_check: Node.js
+- [Node.js](https://github.com/yongchoooon/TIL/blob/main/Node)
+
+### :ballot_box_with_check: FastAPI
+- [FastAPI](https://github.com/yongchoooon/TIL/blob/main/FastAPI) 
