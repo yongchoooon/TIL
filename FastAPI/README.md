@@ -1,6 +1,6 @@
 # :fire: FastAPI
 
-<img src="https://fastapi.tiangolo.com/" alt="fastapi" width="600px" height="220px">
+<img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="fastapi" width="600px" height="220px">
 
 - [Blog - 책 읽는 개발자_테드](https://scshim.tistory.com/572?category=1068563)의 FastAPI 튜토리얼 내용.
   - [app](./app)
