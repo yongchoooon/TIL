@@ -1,5 +1,5 @@
 # :fire: Node
-<img src="https://velog.velcdn.com/images/hanblueblue/post/05bdbbea-decd-488a-93f3-019185e557fe/nodejs.png" alt="node" width="100px">
+<img src="https://velog.velcdn.com/images/hanblueblue/post/05bdbbea-decd-488a-93f3-019185e557fe/nodejs.png" alt="node" width="300px">
 
 ---
 

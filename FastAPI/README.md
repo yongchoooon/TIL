@@ -1,4 +1,5 @@
 # :fire: FastAPI
+> FastAPI framework, high performance, easy to learn, fast to code, ready for production
 
 <img src="https://fastapi.tiangolo.com/img/logo-margin/logo-teal.png" alt="fastapi" width="600px" height="220px">
 
