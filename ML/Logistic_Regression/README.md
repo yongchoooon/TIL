@@ -22,4 +22,3 @@
   - Multiclass classification with scikit-learn
     - OneVsRestClassifier
     - OneVsOneClassifier
-- [Kaggle Competition](./Kaggle_Default_Prediction/)
