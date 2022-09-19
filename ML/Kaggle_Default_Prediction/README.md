@@ -11,3 +11,6 @@
 
 ### submission
 - XGboost 1 : submission2.csv
+- XGboost 2 : submission3.csv
+- XGboost 3 : submission4.csv
+- XGboost 4 : submission5.csv
