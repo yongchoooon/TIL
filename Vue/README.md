@@ -1,5 +1,5 @@
 # :fire: Vue
-<img src="https://velog.velcdn.com/images/taese0ng/post/82c7a9ee-7d30-44eb-be74-6814dd66b64c/logo-vuejs-min.png" alt="javascript" width="100px">
+<img src="https://velog.velcdn.com/images/taese0ng/post/82c7a9ee-7d30-44eb-be74-6814dd66b64c/logo-vuejs-min.png" alt="javascript" width="300px">
 
 ---
 
