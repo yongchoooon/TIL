@@ -40,11 +40,5 @@
 - [Bootstrap and API](./Bootstrap_and_API_Quest-Onedrive) 
     - Quest - Onedrive : [link](./Bootstrap_and_API_Quest-Onedrive/yongchoooon/)
     
-### :ballot_box_with_check: Vue.js
-- [Vue.js](./Vue) 
-
-### :ballot_box_with_check: Node.js
-- [Node.js](./Node)
-
 ### :ballot_box_with_check: FastAPI
 - [FastAPI](./FastAPI) 
