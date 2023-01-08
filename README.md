@@ -18,7 +18,6 @@
     - lab Assignment : [Normal equation](./ML/Linear_Regression/lab_Normal_Equation)
     - lab Assignment : [Gradient Descent](./ML/Linear_Regression/lab_Gradient_Descent)
 - [Logistic Regression](./ML/Logistic_Regression)
-    - Kaggle Competition : [Kaggle Competition](./ML/Logistic_Regression/Kaggle_Default_Prediction/)
 - [Kaggle Competition](./ML/Kaggle_Default_Prediction/)
 
 ### :ballot_box_with_check: Git
