@@ -4,3 +4,4 @@
 1. 기초수학 : [BasicMath.ipynb](./BasicMath.ipynb)
 2. Pytorch Basic : [torch_basics.ipynb](./torch_basics.ipynb)
 3. Numpy로 MLP Implementation : [Numpy_deep_neural_network.ipynb](./Numpy_deep_neural_network.ipynb)
+4. Model Optimization and Generalization : [jupyter notebook](./Model_Optimization_and_Generalization.ipynb)
