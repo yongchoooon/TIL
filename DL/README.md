@@ -4,4 +4,4 @@
 1. 기초수학 : [jupyter notebook](./BasicMath.ipynb)
 2. Pytorch Basic : [jupyter notebook](./torch_basics.ipynb)
 3. Numpy로 MLP Implementation : [jupyter notebook](./Numpy_deep_neural_network.ipynb)
-4. Model Optimization and Generalization : [jupyter notebook](./Model_Optimization_and_Generalization.ipynb)
+4. Model Optimization and Generalization : [jupyter notebook](./Model_Optimization_and_Generalization.md)
