@@ -74,7 +74,7 @@
   <br>
   <img src="./img/Dataset_Augmentation_Examples.png" style="display:block" width="630px" height="350px">
   - **많은 데이터**를 모델에 학습시키는 것이 generalization에 있어 가장 좋은 방법이다.
-  - 데이터셋의 크기에는 한계가 있기 때문에, **`fake data`**를 생성해서 training dataset에 추가하는 방식.
+  - 데이터셋의 크기에는 한계가 있기 때문에, **`fake data`** 를 생성해서 training dataset에 추가하는 방식.
   - Images
     - Rotations
     - Scaling / Zooms
