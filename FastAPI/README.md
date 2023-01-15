@@ -8,3 +8,10 @@
 - Youtube [BIRA SORI](https://www.youtube.com/watch?v=7frN5JPMsQU)의 FastAPI 기초 강의를 수강하고 공부한 내용.
   - [FastAPI_practice](./FastAPI_practice/)
   - [FastAPI_MySQL](./FastAPI_MySQL/)
+
+## Nadosajang ([nado](./nado/))
+- 실행
+  - `python main.py`
+  - or
+  - `uvicorn main:app`
+- 위 명령어로 접속 이후 `127.0.0.1:8000/docs` 주소로 접속
