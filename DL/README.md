@@ -5,3 +5,4 @@
 2. Pytorch Basic : [Jupyter Notebook](./torch_basics.ipynb)
 3. Numpy로 MLP Implementation : [Jupyter Notebook](./Numpy_deep_neural_network.ipynb)
 4. Model Optimization and Generalization : [Markdown](./Model_Optimization_and_Generalization.md)
+5. Group Normalization Implementation : [Jupyter Notebook](./Group_Normalization_Implementation.ipynb)
