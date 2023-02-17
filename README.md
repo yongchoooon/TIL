@@ -21,7 +21,7 @@
 - [Kaggle Competition](./ML/Kaggle_Default_Prediction/)
 
 ### :ballot_box_with_check: Git
-- [Git](./Git) 
+- [Git](./Git)  
 
 ### :ballot_box_with_check: HTML & CSS
 - [HTML_CSS](./HTML_CSS) 
