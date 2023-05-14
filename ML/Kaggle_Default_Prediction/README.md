@@ -9,9 +9,6 @@
   - 위 책을 잃고 다른 사람이 캐글 대회를 진행한 방식을 참고하여 진행해보고 어떤 feature 생성 전략을 세웠는지, 나는 이를 보고 무엇을 배웠는지 정리하여 세미나를 진행.
 - 세미나 진행 일자 : 2022-09-19
 
-### Data
-- [kaggle](https://www.kaggle.com/competitions/amex-default-prediction)에서 다운받아 `data` 폴더에 저장.
-
 ### submission
 - XGboost 1 : submission2.csv
 - XGboost 2 : submission3.csv
