@@ -1,0 +1,22 @@
+version: '3'
+services:
+  database:
+    build: ./database
+    ports:
+      - "3307:3306"
+    env_file:
+      - ./database/.env
+  backend:
+    build: ./backend
+    volumes:
+      - ./backend:/usr/src/app
+    ports:
+      - "5001:5001"
+    environment:
+      - DBHOST=database
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/home/node/app
+    ports:
+      - "8081:8081"

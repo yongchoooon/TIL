@@ -1,0 +1,30 @@
+version: '3'
+services:
+  database:
+    build: ./database
+    ports:
+      - "3306:3306"
+    env_file:
+      - ./database/.env
+  # backend:
+  #   build: ./backend
+  #   volumes:
+  #     - ./backend:/usr/src/app
+  #   ports:
+  #     - "5000:5000"
+  #   environment:
+  #     - DBHOST=database
+  fastapi:
+    build: ./fastapi
+    volumes:
+      - ./fastapi:/usr/src/app
+    ports:
+      - "8000:8000"
+    environment:
+      - DBHOST=database
+  frontend:
+    build: ./frontend
+    volumes:
+      - ./frontend:/home/node/app
+    ports:
+      - "8080:8080"
