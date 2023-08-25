@@ -6,7 +6,13 @@ from pydantic import BaseModel
 import pymysql
 
 app = FastAPI()
-app.add_middleware(CORSMiddleware, allow_origins=["*"])
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 mysql_user = config("MYSQL_USER")
 mysql_password = config("MYSQL_PASSWORD")
